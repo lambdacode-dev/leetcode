@@ -1,5 +1,5 @@
 # leetcode
-| Leetcode # | Leetcode link |
+| Leetcode # | Leetcode Link |
 | --- | --- |
 | 17 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) |
 | 2364 | [Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/) |

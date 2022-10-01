@@ -9,7 +9,7 @@ echo `expr "$stringZ" : 'abc[A-Z]*.2'`       # 8
 
 files=`ls -lcrt *cpp | sed 's/.* //'`
 echo "# leetcode" > README.md
-echo "| Leetcode # | Leetcode link |" >> README.md
+echo "| Leetcode # | Leetcode Link |" >> README.md
 echo "| --- | --- |" >> README.md
 for f in $files; do
     echo
