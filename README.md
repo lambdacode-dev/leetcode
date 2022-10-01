@@ -1,5 +1,5 @@
 # leetcode
-| Leetcode # | Leetcode Link | algorithm | Time Complexity | Space Complexity |
+| Leetcode # | Leetcode Link | Algorithm | Time Complexity | Space Complexity |
 | --- | --- | --- | --- | --- |
 | 285 | [Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/) |         binary search | O(logN) |O(1) |
 | 460 | [LFU Cache](https://leetcode.com/problems/lfu-cache/) |     hash, heap | O(1) |O(N) |
