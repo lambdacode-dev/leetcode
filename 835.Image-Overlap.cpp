@@ -1,7 +1,7 @@
 class Solution {
 public:
     //store image rows into bitsets and use its count method
-    //(time, space) = O(N), O(N^4) 
+    //(time, space) = O(N) O(N^4) 
     int largestOverlap(vector<vector<int>>& _img1, vector<vector<int>>& _img2) {
         int rows = _img1.size();
         int cols = _img1.front().size();
