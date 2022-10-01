@@ -15,7 +15,7 @@ for f in $files; do
     echo
     echo $f
     digits=`expr "$f" : '[0-9]*'`
-    problemid="(${f:0:$digits})"
+    problemid=${f:0:$digits}
     let sz="${#f}-$digits-5" #without problem id and cpp ext
     problem=${f:$digits+1:$sz}
     url=`echo $problem | tr '[:upper:]' '[:lower:]'`
