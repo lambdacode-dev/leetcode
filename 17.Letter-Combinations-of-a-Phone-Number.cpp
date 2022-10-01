@@ -29,6 +29,7 @@ class Solution {
         
 public:
     //recursive dfs with state variable (current partial string) update and back trace
+    //(time, space) = O(4^n n), O(4^n n)
     vector<string> letterCombinations(string digits) {
         this->digits = digits;
         string state;
