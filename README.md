@@ -1,9 +1,9 @@
 # leetcode
-| Leetcode # | Leetcode Link |
-| --- | --- |
-| 17 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) |
-| 2364 | [Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/) |
-| 285 | [Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/) |
-| 55 | [Jump Game](https://leetcode.com/problems/jump-game/) |
-| 460 | [LFU Cache](https://leetcode.com/problems/lfu-cache/) |
-| 835 | [Image Overlap](https://leetcode.com/problems/image-overlap/) |
+| Leetcode # | Leetcode Link | Time Complexity | Space Complexity |
+| --- | --- | --- | --- |
+| 17 | [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | O(4^n |n), |
+| 2364 | [Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/) | O(N), |O(N) |
+| 285 | [Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/) | O(logN), |O(1) |
+| 460 | [LFU Cache](https://leetcode.com/problems/lfu-cache/) | O(1), |O(capacity) |
+| 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | O(N), |O(1) |
+| 835 | [Image Overlap](https://leetcode.com/problems/image-overlap/) | O(N), |O(N^4) |
