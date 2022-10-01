@@ -2,7 +2,7 @@
 
 files=`ls -lcrt *cpp | sed 's/.* //'`
 echo "# leetcode" > README.md
-echo "| Leetcode # | Leetcode Link | algorithm | Time Complexity | Space Complexity |" >> README.md
+echo "| Leetcode # | Leetcode Link | Algorithm | Time Complexity | Space Complexity |" >> README.md
 echo "| --- | --- | --- | --- | --- |" >> README.md
 for f in $files; do
     algorithm=`sed -n -e's/\/\/ *\[\([ a-zA-Z0-9,]*\)\].*/\1/p' $f`
