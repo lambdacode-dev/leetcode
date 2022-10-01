@@ -6,4 +6,4 @@
 | 285 | [Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/) | O(logN) |O(1) |
 | 460 | [LFU Cache](https://leetcode.com/problems/lfu-cache/) | O(1) |O(N) |
 | 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | O(N) |O(1) |
-| 835 | [Image Overlap](https://leetcode.com/problems/image-overlap/) | O(N) |O(N^4) |
+| 835 | [Image Overlap](https://leetcode.com/problems/image-overlap/) | O(N^4) |O(N) |
