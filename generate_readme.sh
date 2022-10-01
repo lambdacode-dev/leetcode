@@ -19,6 +19,6 @@ for f in $files; do
     problem=`echo $problem | tr '-' ' '`
     echo $problemid
     echo $problem
-    echo "- [($problemid) $problem](https://leetcode.com/problems/$url/)" >> README.md
+    echo "- ($problemid) [$problem](https://leetcode.com/problems/$url/)" >> README.md
 done
 
