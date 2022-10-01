@@ -1,5 +1,6 @@
 class LFUCache {
-    //heap of (freq, clock, key): min on freq, min on clock
+    //hash for storing cache, and heap for cache eviction 
+    //heap of (freq, clock, key): min on freq, min on clock: need clock to mark dirty heap node
     struct HeapNode {
         int key = 0;
         int freq = 0;
