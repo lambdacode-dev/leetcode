@@ -6,7 +6,6 @@ echo "| Leetcode # | Leetcode Link | Algorithm | Time Complexity | Space Complex
 echo "| --- | --- | --- | --- | --- |" >> README.md
 for f in $files; do
     algorithm=`sed -n -e's/\/\/ *\[\([ a-zA-Z0-9,]*\)\].*/\1/p' $f`
-    echo $algorithm
     timespace=`sed -n -e's/\/\/ *(time, *space) =//p' $f`
     read -a timespacearr <<< "$timespace"
     digits=`expr "$f" : '[0-9]*'`
