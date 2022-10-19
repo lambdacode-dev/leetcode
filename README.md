@@ -9,4 +9,4 @@
 | 835 | [Image Overlap](https://leetcode.com/problems/image-overlap/) |     bitset | O(N^4) |O(N) |
 | 2345 | [Finding the Number of Visible Mountains](https://leetcode.com/problems/finding-the-number-of-visible-mountains/) |     scan and update state | O(NlogN) |O(1) |
 | 652 | [Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/) |     rolling hash, dfs | O(N) |O(N) |
-| 438 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) |     frequency count |  | |
+| 438 | [Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) |     frequency count | O(N) |O(1) |

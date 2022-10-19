@@ -2,7 +2,7 @@ class Solution {
 public:
     //[frequency count]: represent anagram as frequency table, and
     //                   scan left to right to update/match given anagram
-    //(time, space): O(N), O(1)
+    //(time, space) = O(N) O(1)
     vector<int> findAnagrams(string s, string p) {
         int Freq[26] = {}; // from p
         int freq[26] = {}; // from scanning s
