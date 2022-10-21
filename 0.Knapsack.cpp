@@ -17,11 +17,3 @@ int knacksack(vector<array<int,2>> const& vw /*value,weight pair*/, int capacity
     }
     return dp.back();
 }
-
-int main() {
-    cout << knacksack(vector<array<int,2>>{{10,1}, {15,2}, {40,3}}, 6) << endl;
-    return 0;
-}
-
-
-
