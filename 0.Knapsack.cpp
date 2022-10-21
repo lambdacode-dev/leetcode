@@ -12,7 +12,8 @@ int knacksack(vector<array<int,2>> const& vw /*value,weight pair*/, int capacity
     for(auto const& [v,w] : vw) {
         vector<int> dp2(dp) ;
         for(int c = capacity - w; c >= 0; --c) {
-            dp2[c+w] = max(dp2[c+w], dp[c] + v);
+            if(dp2[c+w] < dp[c] + v)
+                dp2[c+w] = dp[c] + v;
         }
         dp = std::move(dp2);
     }
