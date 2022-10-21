@@ -10,12 +10,10 @@ using namespace std;
 int knacksack(vector<array<int,2>> const& vw /*value,weight pair*/, int capacity) {
     vector<int> dp(capacity+1);
     for(auto const& [v,w] : vw) {
-        vector<int> dp2(dp) ;
         for(int c = capacity - w; c >= 0; --c) {
-            if(dp2[c+w] < dp[c] + v)
-                dp2[c+w] = dp[c] + v;
+            if(dp[c+w]/*dp_i+1*/ < dp[c]/*dp_i*/ + v)
+                dp[c+w] = dp[c] + v;
         }
-        dp = std::move(dp2);
     }
     return dp.back();
 }
