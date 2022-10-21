@@ -1,10 +1,8 @@
-#include "stdc++.h"
-using namespace std;
-//dp_i(c) = total val, for sub problem [0,i) with capacity c
-//base: dp_0(c) = 0 for all c
-//iteration: dp_i(c) -> dp_(i+1)(c+w) = dp_i(c) + v, where (v,w) = value weight of item [i]
-//           dp_i(c) -> dp_(i+1)(c) = dp_i(c)
 //[iterative DP]
+//  dp_i(c) = total val, for sub problem [0,i) with capacity c
+//  base: dp_0(c) = 0 for all c
+//  iteration: dp_i(c) -> dp_(i+1)(c+w) = dp_i(c) + v, where (v,w) = value weight of item [i]
+//             dp_i(c) -> dp_(i+1)(c) = dp_i(c)
 //(time, space) = O(N*C) O(C) where N is # items and C the capacity
 //
 int knacksack(vector<array<int,2>> const& vw /*value,weight pair*/, int capacity) {
