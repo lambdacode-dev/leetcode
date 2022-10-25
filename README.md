@@ -13,5 +13,6 @@
 | 328 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/) |     Scan & Update | O(N) |O(1) |
 | 299 | [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/) |     frequency count | O(N) |O(1) |
 | 79 | [Word Search](https://leetcode.com/problems/word-search/) |     dfs, backtrack | O(N^2) |O(N), |
-| 0 | [Knapsack](https://leetcode.com/problems/knapsack/) | iterative DP | O(N*C) |O(C) |
 | 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) |     iterative DP | O(N*S) |O(S) |
+| 0 | [Knapsack](https://leetcode.com/problems/knapsack/) | iterative DP | O(N*C) |O(C) |
+| 198 | [House Robber](https://leetcode.com/problems/house-robber/) |     dynamic programming | O(N) |O(1) |
