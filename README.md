@@ -18,3 +18,4 @@
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/) |     dynamic programming | O(N) |O(1) |
 | 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) |     dynamic programming | O(N) |O(1) |
 | 78 | [Subsets](https://leetcode.com/problems/subsets/) |     DFS, backtracking | O(N2^N) |O(N2^N) |
+| 90 | [SubsetsII](https://leetcode.com/problems/subsetsii/) |     backtracking | O(N2^N) |O(N2^N) |
