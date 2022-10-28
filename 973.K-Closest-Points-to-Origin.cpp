@@ -1,6 +1,6 @@
 class Solution {
     //[STL nth_element]
-    //(time,space) : O(N), O(1)
+    //(time,space) = O(N) O(1)
 public:
     vector<vector<int>> kClosest(vector<vector<int>>& points, int k) {
         auto kth = points.begin() +k;

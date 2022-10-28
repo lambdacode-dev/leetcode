@@ -19,4 +19,4 @@
 | 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) |     dynamic programming | O(N) |O(1) |
 | 78 | [Subsets](https://leetcode.com/problems/subsets/) |     DFS, backtracking | O(N2^N) |O(N2^N) |
 | 90 | [Subsets II](https://leetcode.com/problems/subsets-ii/) |     backtracking | O(N2^N) |O(N2^N) |
-| 973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) |  |  | |
+| 973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) |     STL nth_element | O(N) |O(1) |
