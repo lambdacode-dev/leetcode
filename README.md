@@ -20,3 +20,4 @@
 | 78 | [Subsets](https://leetcode.com/problems/subsets/) |     DFS, backtracking | O(N2^N) |O(N2^N) |
 | 90 | [Subsets II](https://leetcode.com/problems/subsets-ii/) |     backtracking | O(N2^N) |O(N2^N) |
 | 973 | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/) |     STL nth_element | O(N) |O(1) |
+| 306 | [Additive Number](https://leetcode.com/problems/additive-number/) |     backtracking | O(N^3) |O(1) |
