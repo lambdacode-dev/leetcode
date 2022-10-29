@@ -1,6 +1,6 @@
 class Solution {
     //[backtracking]: addition directly on string of digits
-    //(time, space) = O(N^3) O(1)
+    //(time, space) = O(N^3) O(N)
 public:
     bool isAdditiveNumber(string num) {
         auto additive_triple = [&num](int i, int j, int k, int l) {//[i,j) + [j, k) == [k,l) ?
