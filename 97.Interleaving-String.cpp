@@ -1,5 +1,5 @@
 class Solution {
-    //critical observation: we can restrict each step to match/move only one character without loss of generality
+    //(Critical Observation): we can restrict each step to match/move only one character without loss of generality
     //[iterative DP]: f_i(j): s0[0,i) and s1[0,j) interleave to s[0, i+j)
     //base: f_0(0) = true
     //iteration:
