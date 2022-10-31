@@ -1,4 +1,4 @@
-iclass Solution {
+class Solution {
 public:
     int mySqrt(int x) {
         //[binary search] between 0  and max(2,x)
