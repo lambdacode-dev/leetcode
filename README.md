@@ -24,3 +24,4 @@
 | 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) |     divide and conquer | O(N), |O(N) |
 | 97 | [Interleaving String](https://leetcode.com/problems/interleaving-string/) |     iterative DP | O(MN) |O(N) |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrt(x)/) |         binary search | O(logN) |O(1) |
+| 2414 | [Length of the Longest Alphabetical Continuous Substring](https://leetcode.com/problems/length-of-the-longest-alphabetical-continuous-substring/) |     iterative dynamic programming | O(N) |O(1) |
