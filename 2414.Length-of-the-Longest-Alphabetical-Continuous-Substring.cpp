@@ -2,7 +2,7 @@ class Solution {
     //[iterative dynamic programming]
     //f(i) = lenght of longest continous suffix of s[0,i)
     //base f(0) = 0
-    //iteration: f(i+1) = 1 if s[i-1] + 1 != s[i], f(i) + 1
+    //iteration: f(i+1) = 1 if s[i-1] + 1 != s[i], f(i) + 1 otherwise
     //(time, space) = O(N) O(1)
 public:
     int longestContinuousSubstring(string s) {
