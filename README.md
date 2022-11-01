@@ -25,3 +25,4 @@
 | 97 | [Interleaving String](https://leetcode.com/problems/interleaving-string/) |     iterative DP | O(MN) |O(N) |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrt(x)/) |         binary search | O(logN) |O(1) |
 | 2414 | [Length of the Longest Alphabetical Continuous Substring](https://leetcode.com/problems/length-of-the-longest-alphabetical-continuous-substring/) |     iterative dynamic programming | O(N) |O(1) |
+| 2177 | [Find Three Consecutive Integers That Sum to a Given Number](https://leetcode.com/problems/find-three-consecutive-integers-that-sum-to-a-given-number/) |     math | O(1), |O(1) |
