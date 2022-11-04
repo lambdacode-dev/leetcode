@@ -1,6 +1,6 @@
 class LFUCache {
     //[multiple frequency hashed doubly linked list]
-    //(time, space) = O(1) O(N)
+    //(time, space) = O(logN) O(N)
     using FreqKeyVal = array<int, 3>;
     map<int/*frequency*/, list<FreqKeyVal>> lists;
     unordered_map<int/*key*/, list<FreqKeyVal>::iterator> dict;
@@ -25,7 +25,7 @@ public:
         auto itr = dict.find(key);
         if(itr != dict.end())
             access(itr->second) = value;
-        else {
+        else if(capacity) {
             if(dict.size() == capacity) {
                 for(auto & [freq, lst] : lists) {
                    if(!lst.empty()) {
@@ -36,10 +36,8 @@ public:
                    }
                 }
             }
-            if(capacity) {
-                lists[1].push_back({1, key, value});
-                dict[key] = next(lists[1].rbegin()).base();
-            }
+            lists[1].push_back({1, key, value});
+            dict[key] = next(lists[1].rbegin()).base();
         }
     }
 };
