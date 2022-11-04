@@ -28,4 +28,4 @@
 | 298 | [Binary Tree Longest Consecutive Sequence](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/) |     post order binary tree traversal | O(N) |O(N) |
 | 2229 | [Check if an Array Is Consecutive](https://leetcode.com/problems/check-if-an-array-is-consecutive/) |     frequency counting | O(N), |O(N) |
 | 549 | [Binary Tree Longest Consecutive Sequence II](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii/) |     post order dfs | O(N) |O(N) |
-| 460 | [LFU Cache](https://leetcode.com/problems/lfu-cache/) |     hash, heap | O(logN) |O(N) |
+| 460 | [LFU Cache](https://leetcode.com/problems/lfu-cache/) |     multiple frequency hashed doubly linked list | O(1) |O(N) |
