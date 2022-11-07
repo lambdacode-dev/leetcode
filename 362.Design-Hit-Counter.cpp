@@ -1,5 +1,5 @@
 class HitCounter {
-    //[queue of hit time and occurrence pair]
+    //[queue of hit time and occurrence pair] : scalable on huge events of same hit time
     //(time, space) = O(1) O(N)
     constexpr static int time = 0;
     constexpr static int freq = 1;
