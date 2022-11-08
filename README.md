@@ -30,3 +30,4 @@
 | 549 | [Binary Tree Longest Consecutive Sequence II](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii/) |     post order dfs | O(N) |O(N) |
 | 460 | [LFU Cache](https://leetcode.com/problems/lfu-cache/) |     list of list, hashing | O(1) |O(N) |
 | 362 | [Design Hit Counter](https://leetcode.com/problems/design-hit-counter/) |     queue of hit time and occurrence pair | O(1) |O(N) |
+| 743 | [Network Delay Time](https://leetcode.com/problems/network-delay-time/) |     dijkstra | O(N+ElogE), |O(N+E) |
