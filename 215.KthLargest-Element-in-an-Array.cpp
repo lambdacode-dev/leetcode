@@ -1,5 +1,5 @@
 class Solution {
-    //[stl::nth_element]
+    //(stl::nth_element)
     //(time, space) = O(N) O(1)
 public:
     int findKthLargest(vector<int>& nums, int k) {
