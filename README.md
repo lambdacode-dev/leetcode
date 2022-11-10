@@ -37,3 +37,4 @@
 | 173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) |     inorder dfs with direct stack manipulation | O(1) |O(tree_height) |
 | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) |     dfs | O(N) |O(N) |
 | 394 | [Decode String](https://leetcode.com/problems/decode-string/) |     stack and update on stack top | O(N) |O(N) |
+| 720 | [Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/) |     prefix tree | O(N) |O(N) |
