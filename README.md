@@ -34,3 +34,4 @@
 | 215 | [KthLargest Element in an Array](https://leetcode.com/problems/kthlargest-element-in-an-array/) |     stl nth_element | O(N) |O(1) |
 | 152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) |     dynmaic programm | O(N) |O(1) |
 | 818 | [Race Car](https://leetcode.com/problems/race-car/) |     dijkstra algorithm | O(NlogN) |O(N) |
+| 173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) |     inorder dfs with direct stack manipulation | O(1) |O(tree_height) |
