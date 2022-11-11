@@ -42,3 +42,4 @@
 | 112 | [.Path Sum](https://leetcode.com/problems/.path-sum/) |     iterative dfs/backtracking | O(N), |O(N) |
 | 112 | [.Path Sum](https://leetcode.com/problems/.path-sum/) |     dfs | O(N), |O(N) |
 | 844 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) |     parse to build strings for comparison | O(N) |O(N) |
+| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) |     frequency count | O(N) |O(N) |
