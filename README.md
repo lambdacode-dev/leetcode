@@ -41,3 +41,4 @@
 | 2311 | [Longest Binary Subsequence Less Than or Equal to K](https://leetcode.com/problems/longest-binary-subsequence-less-than-or-equal-to-k/) |     scan and choose | O(N) |O(N) |
 | 112 | [.Path Sum](https://leetcode.com/problems/.path-sum/) |     iterative dfs/backtracking | O(N), |O(N) |
 | 112 | [.Path Sum](https://leetcode.com/problems/.path-sum/) |     dfs | O(N), |O(N) |
+| 844 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) |     parse to build strings for comparison | O(N) |O(N) |
