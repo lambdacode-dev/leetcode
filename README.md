@@ -49,3 +49,4 @@
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) |     hashing | O(N) |O(N) |
 | 219 | [Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/) |     hashing | O(N) |O(N) |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) |     two pointers and swap | O(N) |O(1) |
+| 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) |     two pointers | O(N) |O(1) |
