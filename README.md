@@ -46,3 +46,4 @@
 | 231 | [Power of Two](https://leetcode.com/problems/power-of-two/) |     reset rightmost 1 bit | O(1) |O(1) |
 | 326 | [Power of Three](https://leetcode.com/problems/power-of-three/) |     binary search | O(1) |O(1) |
 | 202 | [Happy Number](https://leetcode.com/problems/happy-number/) |     hashing | O(logN) |O(logN) |
+| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) |     hashing | O(N) |O(N) |
