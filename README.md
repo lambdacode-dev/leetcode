@@ -44,3 +44,4 @@
 | 844 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) |     parse to build strings for comparison | O(N) |O(N) |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) |     frequency count | O(N) |O(N) |
 | 231 | [Power of Two](https://leetcode.com/problems/power-of-two/) |     reset rightmost 1 bit | O(1) |O(1) |
+| 326 | [Power of Three](https://leetcode.com/problems/power-of-three/) |     binary search | O(1) |O(1) |
