@@ -54,3 +54,4 @@
 |  | [ain](https://leetcode.com/problems/ain/) |  |  | |
 | 295 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) |     stl map | O(logN/1) |O(N), |
 | 46 | [Permutations](https://leetcode.com/problems/permutations/) |     backtracking | O(NN!) |O(1) |
+| 50 | [Powx n](https://leetcode.com/problems/powx-n/) |     divide and conquer | O(logN) |O(1) |
