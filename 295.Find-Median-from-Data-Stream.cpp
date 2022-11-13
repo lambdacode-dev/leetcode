@@ -1,37 +1,36 @@
 class MedianFinder {
-    //[stl multiset]
-    //(time, space) = O(logN) O(1) O(N) 
-    multiset<int> nums;
-    multiset<int>::const_iterator itrl, itrr; // the two mid eles iterators 
+    //[stl map]
+    //(time, space) = O(logN/1) O(N), where N is size of number set, bounded by 2^32.
+    map<int,int> freq;
+    map<int,int>::const_iterator mid; // or the first of the two middles if even count
+    int offset = 0; // offset within the freq at mid.
+    bool even = true;
+    void update_median(bool added2right/*of first middle element*/) {
+        if( (even = !even) ) {
+            if(!added2right) { //inserted to left and now even items: backward middle pointer
+                if(!offset)
+                    offset = (--mid)->second - 1;
+                else
+                    --offset;
+            }
+        }
+        else if(added2right) { //inserted to right and now odd: forawrd middle pointer
+            if(++offset == mid->second) {
+                offset = 0;
+                ++mid;
+            }
+        }
+    }
 public:
-    MedianFinder() {
-        
-    }
-    
+    MedianFinder() { freq[INT_MIN] = 1; mid = freq.begin(); }
+
     void addNum(int num) {
-        auto itr = nums.insert(num);
-        if(nums.size() == 1)
-            itrl = itrr = itr;
-        else if(*itr < *itrl) // inserted to left half
-        {
-            if(itrl == itrr)   // prev odd sz
-                --itrl;
-            else
-                itrr = itrl;
-        }
-        else if(*itr >= *itrr) // inserted to right half
-        {
-            if(itrl == itrr)
-                ++itrr;
-            else
-                itrl = itrr;
-        }
-        else
-            itrl = itrr = itr;
+        auto itr = freq.insert( {num, 0} ).first;
+        itr->second++;
+        update_median(itr->first >= mid->first);
     }
-    
+
     double findMedian() {
-        if(nums.empty()) return 0.0;
-        return (*itrl + *itrr) / 2.0;
+        return (even && offset + 1 == mid->second) ? (mid->first + next(mid)->first) / 2.0 : mid->first;
     }
 };
