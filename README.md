@@ -53,3 +53,4 @@
 | 51 | [N Queens](https://leetcode.com/problems/n-queens/) |     backtracking | O(N!) |O(N) |
 |  | [ain](https://leetcode.com/problems/ain/) |  |  | |
 | 295 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) |     stl map | O(logN/1) |O(N), |
+| 46 | [Permutations](https://leetcode.com/problems/permutations/) |     backtracking | O(NN!) |O(1) |
