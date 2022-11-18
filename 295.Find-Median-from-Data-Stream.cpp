@@ -1,7 +1,8 @@
+#include "stdc++.h"
 class MedianFinder {
     //[stl map]
     //(time, space) = O(logN/1) O(N), where N is size of number set, bounded by 2^32.
-    map<int,int> freq;
+    std::map<int,int> freq;
     map<int,int>::const_iterator mid; // or the first of the two middles if even count
     int offset = 0; // offset within the freq at mid.
     bool even = true;

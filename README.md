@@ -13,7 +13,6 @@
 | 299 | [Bulls and Cows](https://leetcode.com/problems/bulls-and-cows/) |     frequency count | O(N) |O(1) |
 | 79 | [Word Search](https://leetcode.com/problems/word-search/) |     dfs, backtrack | O(N^2) |O(N), |
 | 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) |     iterative DP | O(N*S) |O(S) |
-| 0 | [Knapsack](https://leetcode.com/problems/knapsack/) | iterative DP | O(N*C) |O(C) |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/) |     dynamic programming | O(N) |O(1) |
 | 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) |     dynamic programming | O(N) |O(1) |
 | 78 | [Subsets](https://leetcode.com/problems/subsets/) |     DFS, backtracking | O(N2^N) |O(N2^N) |
@@ -51,7 +50,9 @@
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) |     two pointers and swap | O(N) |O(1) |
 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) |     two pointers | O(N) |O(1) |
 | 51 | [N Queens](https://leetcode.com/problems/n-queens/) |     backtracking | O(N!) |O(N) |
-|  | [ain](https://leetcode.com/problems/ain/) |  |  | |
-| 295 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) |     stl map | O(logN/1) |O(N), |
 | 46 | [Permutations](https://leetcode.com/problems/permutations/) |     backtracking | O(NN!) |O(1) |
 | 50 | [Powx n](https://leetcode.com/problems/powx-n/) |     divide and conquer | O(logN) |O(1) |
+| 0 | [Knapsack](https://leetcode.com/problems/knapsack/) | iterative DP | O(N*C) |O(C) |
+| 295 | [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) |     stl map | O(logN/1) |O(N), |
+|  | [ain](https://leetcode.com/problems/ain/) |  |  | |
+| 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) |     check map is one on one | O(N) |O(1) |
