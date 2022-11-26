@@ -1,6 +1,6 @@
 class Solution {
     class Solution {
-    //[number system with factorial weights]
+    //[counting in number system with factorial weights]
     //(time,space) = O(N^2) O(N)
     template<int N> struct F { constexpr static int val = F<N-1>::val*N; }; // factorial n!
     template<> struct F<1> { constexpr static int val = 1; };
