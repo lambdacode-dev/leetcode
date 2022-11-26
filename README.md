@@ -57,3 +57,4 @@
 |  | [ain](https://leetcode.com/problems/ain/) |  |  | |
 | 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) |     check map is one on one | O(N) |O(1) |
 | 400 | [Nth Digit](https://leetcode.com/problems/nth-digit/) |     binary search | O(logN) |O(1) |
+| 60 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) |     number system with factorial weights | O(N^2) |O(N) |
