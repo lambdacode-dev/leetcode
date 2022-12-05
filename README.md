@@ -59,3 +59,4 @@
 | 400 | [Nth Digit](https://leetcode.com/problems/nth-digit/) |     binary search | O(logN) |O(1) |
 | 60 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) |     counting in number system with factorial weights | O(N^2) |O(N) |
 | 115 | [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) |     dynamic programming |  | |
+| 696 | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/) | scan and handle transition event | O(N) |O(1) |
