@@ -6,16 +6,11 @@ public:
     int scheduleCourse(vector<vector<int>>& courses) {
         sort(courses.begin(), courses.end(), [](auto const& a, auto const& b) { return a[1] < b[1]; });
         priority_queue<int> heap;
-        for(int totaltime = 0, i = 0; i < courses.size(); ++i) {
-            auto duration = courses[i][0];
-            if(totaltime + duration <= courses[i][1]) {
-                totaltime += duration;
-                heap.push(duration);
-            }
-            else if(!heap.empty() && duration < heap.top()) {
-                totaltime += duration - heap.top();
+        for(int time = 0, i = 0; i < courses.size(); ++i) {
+            heap.push(courses[i][0]);
+            if( (time += courses[i][0]) > courses[i][1]) {
+                time -= heap.top();
                 heap.pop();
-                heap.push(duration);
             }
         }
         return heap.size();
