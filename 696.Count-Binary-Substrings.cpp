@@ -1,4 +1,4 @@
-//[scan and handle transition event]: a transition happens or state changes when ever seen a letter from last.
+//[scan and handle transition event]: a transition happens or state changes when ever seen a letter different from last.
 //(time, space) = O(N) O(1)
 class Solution {
 public:
