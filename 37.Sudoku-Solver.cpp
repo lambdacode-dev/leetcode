@@ -7,13 +7,9 @@ public:
         using NumberUsed = array<bool,10>;
         NumberUsed row[10] {}, col[10] {}, box[3][3] {};
         for(int r = 0; r < 9; ++r) {
-            for(int c = 0; c < 9; ++c) {
-                if(board[r][c] != '.') {
-                    row[r][board[r][c] - '0'] = true;
-                    col[c][board[r][c] - '0'] = true;
-                    box[r/3][c/3][board[r][c] - '0'] = true;
-                }
-            }
+            for(int c = 0; c < 9; ++c)
+                if(board[r][c] != '.')
+                    row[r][board[r][c] - '0'] = col[c][board[r][c] - '0'] = box[r/3][c/3][board[r][c] - '0'] = true;
         }
         function<int()> backtrack;
         backtrack = [&backtrack, &row, &col, &box, &board]() {
