@@ -64,3 +64,4 @@
 | 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/) |     3 pointers merge right to left | O(m+n) |O(1) |
 | 1656 | [Design an Ordered Stream](https://leetcode.com/problems/design-an-ordered-stream/) | maintain/update pointer to next chunk | O(1) |amortized |
 | 37 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) |     backtrack on most restrictive cell | O(1) |O(1) |
+| 740 | [Delete and Earn](https://leetcode.com/problems/delete-and-earn/) | dynamic programm | O(NlogN) |O(N) |
