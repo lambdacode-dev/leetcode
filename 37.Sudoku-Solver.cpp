@@ -1,5 +1,5 @@
 class Solution {
-    //[backtrack on most restrictive cell]: at most 81^9 recursive calls.
+    //[backtrack on most restrictive cell]
     //(time, space) = O(1) O(1)
 public:
     void solveSudoku(vector<vector<char>>& board) {
