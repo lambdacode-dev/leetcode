@@ -67,3 +67,4 @@
 | 37 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) |     backtrack on most restrictive cell | O(1) |O(1) |
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | backtrack |  | |
 | 1395 | [Count Number of Teams](https://leetcode.com/problems/count-number-of-teams/) | dynamic programm | O(N^2) |O(N) |
+| 722 | [Remove Comments](https://leetcode.com/problems/remove-comments/) | linear scan with block comment state update | O(N), |O(N) |
