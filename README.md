@@ -66,3 +66,4 @@
 | 740 | [Delete and Earn](https://leetcode.com/problems/delete-and-earn/) | dynamic programm | O(NlogN) |O(N) |
 | 37 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) |     backtrack on most restrictive cell | O(1) |O(1) |
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | backtrack |  | |
+| 1395 | [Count Number of Teams](https://leetcode.com/problems/count-number-of-teams/) | dynamic programm | O(N^2) |O(N) |
