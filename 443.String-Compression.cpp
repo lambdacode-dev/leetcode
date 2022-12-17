@@ -11,8 +11,8 @@ public:
             else {
                 chars[w++] = cur;
                 if(cnt > 1) {
-                    if(cnt < 10)
-                        chars[w++] = '0' + cnt;
+                    if(cnt == 2)
+                        chars[w++] = '2';
                     else
                         w += sprintf(&chars[0] + w, "%d", cnt);
                 }
@@ -20,6 +20,6 @@ public:
                 cnt = 1;
             }
         }
-        return w; 
+        return w;
     }
 };
