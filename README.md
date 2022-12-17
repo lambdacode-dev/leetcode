@@ -71,3 +71,4 @@
 | 722 | [.Remove Comments](https://leetcode.com/problems/.remove-comments/) |  |  | |
 | 443 | [String Compression](https://leetcode.com/problems/string-compression/) |     two pointers | O(N) |O(1) |
 | 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string/) | in place swap | O(N) |O(1) |
+| 1048 | [Longest String Chain](https://leetcode.com/problems/longest-string-chain/) |     sort and incremental chain build | O(N^2) |O(N), |
