@@ -9,10 +9,10 @@ public:
             int val;
             is >> val;
             if(!is) return (TreeNode*)(0);
-            char c;
+
             TreeNode *l = nullptr, *r = nullptr;
-            if(is.peek() == '(') { is >> c; l = parse(); is >> c; } 
-            if(is.peek() == '(') { is >> c; r = parse(); is >> c; }
+            if(is.peek() == '(') { char c; is >> c; l = parse(); is >> c; }
+            if(is.peek() == '(') { char c; is >> c; r = parse(); is >> c; }
             return new TreeNode(val, l, r);
         };
         return parse();
