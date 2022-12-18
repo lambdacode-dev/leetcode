@@ -73,3 +73,4 @@
 | 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string/) | in place swap | O(N) |O(1) |
 | 1048 | [Longest String Chain](https://leetcode.com/problems/longest-string-chain/) |     sort and incremental chain build | O(N^2) |O(N), |
 | 567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) |     sliding window to match permutation frequency ID | O(N1+N2) |O(1) |
+| 536 | [Construct Binary Tree from String](https://leetcode.com/problems/construct-binary-tree-from-string/) |     recursive parsing on istringstream | O(N) |O(N) |
