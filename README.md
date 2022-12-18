@@ -72,3 +72,4 @@
 | 443 | [String Compression](https://leetcode.com/problems/string-compression/) |     two pointers | O(N) |O(1) |
 | 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string/) | in place swap | O(N) |O(1) |
 | 1048 | [Longest String Chain](https://leetcode.com/problems/longest-string-chain/) |     sort and incremental chain build | O(N^2) |O(N), |
+| 567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) |     sliding window to match permutation frequency ID | O(N1+N2) |O(1) |
