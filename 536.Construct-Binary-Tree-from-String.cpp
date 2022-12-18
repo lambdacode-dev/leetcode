@@ -8,13 +8,12 @@ public:
         parse = [&parse, &is]() {
             int val;
             is >> val;
-            if(!is) return (TreeNode*)(0);
 
             TreeNode *l = nullptr, *r = nullptr;
             if(is.peek() == '(') { char c; is >> c; l = parse(); is >> c; }
             if(is.peek() == '(') { char c; is >> c; r = parse(); is >> c; }
             return new TreeNode(val, l, r);
         };
-        return parse();
+        return s.empty() ? nullptr : parse();
     }
 };
