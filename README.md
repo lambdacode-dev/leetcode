@@ -75,3 +75,4 @@
 | 567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) |     sliding window to match permutation frequency ID | O(N1+N2) |O(1) |
 | 536 | [Construct Binary Tree from String](https://leetcode.com/problems/construct-binary-tree-from-string/) |     recursive parsing on istringstream | O(N) |O(N) |
 | 1405 | [Longest Happy String](https://leetcode.com/problems/longest-happy-string/) |     greedy to generate multiplicity array | O(N) |O(N) |
+| 1537 | [Get the Maximum Score](https://leetcode.com/problems/get-the-maximum-score/) |     dynamic programming | O(N) |O(1) |
